@@ -1,4 +1,5 @@
 package com.company;
+import com.company.biulder.Person;
 import com.company.singlton.Singleton;
 
 import java.io.*;
@@ -7,7 +8,7 @@ import java.io.*;
 public class Main {
 
     public static void main(String[] args)throws IOException {
-//        //begin factory
+//       //begin factory
 //       GetCar Carcomplectation = new GetCar();
 //
 //        System.out.print("Enter the name of car complectation for which the bill will be generated: ");
@@ -34,8 +35,15 @@ public class Main {
 //        //how u see from result its working
 //        // end singleton
 
-
-
+//        //begin builder
+//        Person myPerson = new Person.Builder()
+//                .withfName("Igenov")
+//                .withlName("Temirlan")
+//                .withAge(18)
+//                .withHeight(183)
+//                .withWeight(65)
+//                .build();
+//        //end builder
     }
 }
 
